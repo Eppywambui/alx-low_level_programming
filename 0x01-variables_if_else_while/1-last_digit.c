@@ -2,7 +2,7 @@
 #include	<stdlib.h>
 #include	<time.h>
 /**
-  *main-entr	point	of	the	programme
+  *main-entry	point	of	the	program
   *
   *Return:return0
   */
@@ -10,26 +10,23 @@ int	main(void)
 
 {
 	int	n;
-	int	last;
+	int	ldigit;
 
 	srand(time(0));
 	n	=	rand()	-	RAND_MAX	/	2;
-	last	=	n	%	10;
+	ldigit	=	n	%	10;
 
-	if	(last	==	0)
+	if	(last	digit	>	5)
 	{
-		printf("Last	digit	of	%d	is	%d	and	is	0/n",	n,	last);
+		printf("Last	digit	of	%d	is	%d	and	is	greater	than	5/n",	n,	ldigit);
 	}
-	else
+	else	if	(Last	digit	==i	0)
 	{
-		if	(last	>	5)
-		{
-			printf("Last	digit	of	%d	is	%d	and	is	greater	than	5/n",	n,	last);
-		}
-		else	if	(last	<	6)
-		{
-			printf("Last	digit	of	%d	is	%d	and	is	less	than	6	and	not	0\n",	n,	last);
-		}
+		printf("Last	digit	of	%d	is	%d	and	is	0/n",	n,	ldigit);
+	}
+	else	if	(last	digit	<	6	&&	ldigit!	=	0)
+	{
+		printf("Last	digit	of	%d	is	%d	and	is	less	than	6	and	not	0\n",	n,	ldigit);
 	}
 	return	(0);
 }
