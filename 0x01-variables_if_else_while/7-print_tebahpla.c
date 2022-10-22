@@ -1,14 +1,18 @@
 #include	<stdio.h>
 /**
-  *main-pprogram	entry	point.
-  *return:0	if	no	erors,	non	zero	if	errors
+  *main-entry	point	of	the	program.
+  *
+  *Return:0
   */
 int	main(void)
 {
-	char	i;
-	for	(i	=	'z';	i	>	'a';	i--)
+	int	i;
+
+	for	(i	=	'z';	i	>=	'a';	i--)
+	{
 		putchar(i);
-		putchar('\n');
-		return(0);
+	}
+	putchar('\n');
+	return	(0);
 }
 
