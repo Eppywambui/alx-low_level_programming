@@ -1,15 +1,8 @@
 #include	<stdio.h>
-
 /**
- *main-program	entry	point.
+ *main-program	entry	point
  *
- *
- *Description;	program	that	prints	all	numbers	of	base16	in	lowercase
- *
- *
- *return:0	if	no	error,	non	zero	if	error.
- *
- *
+ *Return:0
  */
 int	main(void)
 {
