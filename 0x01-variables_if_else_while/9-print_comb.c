@@ -1,25 +1,21 @@
 #include <stdio.h>
-
 /**
-  *main-program	entry	point
-  *return;0	sucess,	non	zero	error
+  *main-entry	point	of	the	program
+  *
+  *Return:0
   */
 int	main(void)
 {
 	int	num;
 
-	for	(num	=	'0';	num	<	=	'9';	num++)
+	for	(num	=	'0';	num	<=	'9';	num++)
 	{
 		putchar(num);
-		if	(num	==	'9');
-		{
-			break;
-		}
-		else
-		{
-			putchar	(',');
-			putchar	('');
-		}
+		if	(num	==	'9')
+			continue;
+
+		putchar	(',');
+		putchar	('	');
 	}
 	putchar	('\n');
 	return	(0);
