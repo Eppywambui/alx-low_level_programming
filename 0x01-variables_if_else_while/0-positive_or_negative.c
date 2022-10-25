@@ -1,8 +1,8 @@
 #include	<stdio.h>
 #include	<stdlib.h>
 #include	<time.h>
-/**
- *main-program	entry	point
+/*
+ *main-entry	point	of	the	programme
  *
  *Return:Always	0	(success)
  */
@@ -22,7 +22,7 @@ int	main(void)
 	}
 	else	if	(n	==	0)
 	{
-		printf("%d	if	zero\n",	n);
+		printf("%d	is	zero\n",	n);
 	}
 	return	(0);
 }
