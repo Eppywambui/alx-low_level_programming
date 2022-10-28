@@ -2,12 +2,11 @@
 #include	<string.h>
 
 /**
- *Main	-	Entry	point
- *
+ *Main	-	Main	function	of	the	project
  *Description:	prints	what	is	in	printf
- *
- *Return:	Always	return	0	everytime	if	no	errors
+ *Return:	Always	return	0	everytime
  */
+
 int	main(void)
 {
 

@@ -1,7 +1,7 @@
 #include	<stdio.h>
 /**
   *main	-	main	entry	of	the	program
-  *
+  *Description:	prints	the	size	of	varoustypes	on	the	computer.
   *Return:	return	0
   */
 int	main(void)
