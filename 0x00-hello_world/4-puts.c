@@ -2,7 +2,7 @@
 #include	<string.h>
 
 /**
- *Main	-	Main	function	of	the	project
+ *Main	-	entry	point
  *Description:	prints	what	is	in	printf
  *Return:	Always	return	0	everytime
  */
