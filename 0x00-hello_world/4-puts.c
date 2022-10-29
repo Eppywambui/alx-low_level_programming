@@ -2,9 +2,10 @@
 #include	<string.h>
 
 /**
- *Main	-	entry	point
- *Description:	prints	what	is	in	printf
- *Return:	Always	return	0	everytime
+ *Main	-	Main	function	of	my	projecct
+ *
+ *
+ *Return:	return	0	everytime
  */
 
 int	main(void)
