@@ -2,7 +2,7 @@
 #include	<string.h>
 
 /**
- *Main	-	Main	function	of	my	projecct
+ *main	-	Main	function	of	my	projecct
  *
  *
  *Return:	return	0	everytime
