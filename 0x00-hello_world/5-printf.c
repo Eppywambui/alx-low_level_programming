@@ -1,6 +1,7 @@
 #include	<stdio.h>
 /**
-  *main	-	Main	function
+  *main	-	main	function
+  *
   *
   *Return:	return	0	everytime
   */
