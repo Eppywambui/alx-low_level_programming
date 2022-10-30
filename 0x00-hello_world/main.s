@@ -17,6 +17,6 @@ main:
 	.cfi_endproc
 .LFE0:
 	.size	main,	.-main
-	.indent	"GCC:	(GNU)	11.1.0"
+	.ident	"GCC:	(GNU)	11.1.0"
 	.section	.note.GNU-stack,"",@progbits
 
