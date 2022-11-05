@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  *_strbrk - The _strbrk() function locates the first
+  *_strpbrk - The _strpbrk() function locates the first
   *occurence in thr string s of any of the bytes in
   *the string accept
   *
@@ -10,7 +10,7 @@
   *Return: returns a pointer to the bytr in s that matches
   *one of the bytes in accept, or NULL if no such byte is found
   */
-char *_strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int i;
 
