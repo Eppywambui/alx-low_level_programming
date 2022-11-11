@@ -65,7 +65,6 @@ char *iterate_zeroes(char *str)
 	return (str);
 }
 
-
 /**
   *get_digit - converts a digit character to a corresponding int.
   *@c: The character to be converted.
@@ -230,5 +229,4 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-
 
